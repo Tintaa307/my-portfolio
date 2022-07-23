@@ -1,0 +1,277 @@
+.section-skills {
+  width: 100%;
+  height: 100%;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+
+.section-skills .container-content-skills h1 {
+  text-align: center;
+  padding-bottom: 5rem;
+  color: #2e4699;
+}
+
+.section-skills .container-content-skills {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.section-skills .container-content-skills .container-skills {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.section-skills .container-content-skills .container-skills .skill {
+  width: 500px;
+  height: max-content;
+  border: 1px solid #2e4699;
+  display: inline-block;
+  margin: 0 40px;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.section-skills .container-content-skills .container-skills .skill .dash {
+  position: absolute;
+  background-color: #2e4699;
+  width: 500px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  clip-path: circle(0% at top left);
+  z-index: -1;
+}
+
+.section-skills .container-content-skills .container-skills .skill:hover {
+  border: 1px solid #fff;
+}
+
+.section-skills .container-content-skills .container-skills .skill:hover .dash {
+  clip-path: circle(150% at top left);
+}
+
+.section-skills .container-content-skills .container-skills .skill:hover h2 {
+  color: #fff;
+}
+
+.section-skills .container-content-skills .container-skills .skill:hover h4 {
+  color: #fff;
+}
+
+.section-skills .container-content-skills .container-skills .skill:hover i {
+  color: #fff;
+}
+
+.section-skills .container-content-skills .container-skills .skill i {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 30px 0;
+  font-size: 3rem;
+  color: #000;
+}
+
+.section-skills .container-content-skills .container-skills .skill h2 {
+  color: #000;
+  text-align: center;
+}
+
+.section-skills .container-content-skills .container-skills .skill h4 {
+  color: #000;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 1.5rem;
+}
+
+.section-skills .container-content-skills .container-skills .skill .lenguajes {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.section-skills
+  .container-content-skills
+  .container-skills
+  .skill
+  .lenguajes
+  .lenguaje {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.section-skills
+  .container-content-skills
+  .container-skills
+  .skill
+  .lenguajes
+  .lenguaje:nth-child(1)
+  i {
+  color: #d86a05;
+}
+
+.section-skills
+  .container-content-skills
+  .container-skills
+  .skill
+  .lenguajes
+  .lenguaje:nth-child(2)
+  i {
+  color: #050dd8;
+}
+
+.section-skills
+  .container-content-skills
+  .container-skills
+  .skill
+  .lenguajes
+  .lenguaje:nth-child(3)
+  i {
+  color: #edc807;
+}
+
+.section-skills
+  .container-content-skills
+  .container-skills
+  .skill
+  .lenguajes
+  .lenguaje-back {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.section-skills
+  .container-content-skills
+  .container-skills
+  .skill
+  .lenguajes
+  .lenguaje-back:nth-child(1)
+  i {
+  color: #003d00;
+}
+
+.section-skills
+  .container-content-skills
+  .container-skills
+  .skill
+  .lenguajes
+  .lenguaje-back:nth-child(2)
+  i {
+  color: #544a7d; /* fallback for old browsers */
+  color: -webkit-linear-gradient(
+    to right,
+    #ffd452,
+    #544a7d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(
+    to right,
+    #ffd452,
+    #544a7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.section-skills
+  .container-content-skills
+  .container-skills
+  .skill
+  .lenguajes
+  .lenguaje-back:nth-child(3)
+  i {
+  color: #07edd1;
+}
+
+.section-skills
+  .container-content-skills
+  .container-skills
+  .skill
+  .container-tools {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.section-skills
+  .container-content-skills
+  .container-skills
+  .skill
+  .container-tools
+  .tool {
+  display: inline-block;
+  margin: 0 50px;
+}
+
+.section-skills
+  .container-content-skills
+  .container-skills
+  .skill
+  .container-tools
+  .tool:nth-child(1)
+  i {
+  color: #07edd1;
+}
+
+.section-skills
+  .container-content-skills
+  .container-skills
+  .skill
+  .container-tools
+  .tool:nth-child(2)
+  i {
+  color: #8e2de2; /* fallback for old browsers */
+  color: -webkit-linear-gradient(
+    to top,
+    #4a00e0,
+    #8e2de2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(
+    to bottom,
+    #4a00e0,
+    #8e2de2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.section-skills
+  .container-content-skills
+  .container-skills
+  .skill
+  .container-tools
+  .tool:nth-child(3)
+  i {
+  color: #544a7d;
+}
+
+.section-skills
+  .container-content-skills
+  .container-skills
+  .skill:hover
+  .container-tools
+  .tool:nth-child(3)
+  i {
+  color: #7e00fc;
+}
+
+.section-skills
+  .container-content-skills
+  .container-skills
+  .skill
+  .container-tools
+  .tool
+  img {
+  position: relative;
+  width: 80%;
+  margin: 1.8rem 0;
+}

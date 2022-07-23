@@ -1,0 +1,499 @@
+.container-main {
+  width: 100%;
+  height: 110vh;
+  background-color: #2e4699;
+}
+
+.container-main .waves {
+  position: absolute;
+  top: 0;
+  left: 0;
+  user-select: none;
+}
+
+.container-main .waves .wave2 {
+  position: absolute;
+  top: 330px;
+  left: 0;
+  user-select: none;
+}
+
+.container-main .waves img {
+  width: 100%;
+}
+
+.container-main .container-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-main .container-content .container-presentation {
+  position: absolute;
+  top: 140px;
+  left: 100px;
+}
+
+.container-main .container-content .container-presentation h1 {
+  color: #fff;
+  font-size: 2.3rem;
+  letter-spacing: 1px;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+.container-main .container-content .container-presentation h1 span {
+  color: #2e4699; /* fallback for old browsers */
+  text-shadow: 0 0 20px #2e4699;
+}
+
+.container-main .container-content .container-presentation p {
+  width: 40%;
+  color: #000;
+  font-size: 1rem;
+  margin-top: 20px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.container-main .container-content .container-presentation button {
+  width: 220px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #fff;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.container-main .container-content .container-presentation button a {
+  position: relative;
+  top: -32px;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.container-main .container-content .container-presentation button .dash {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 42.5px;
+  border-radius: 10px;
+  clip-path: circle(0% at top left);
+  background-color: #4800be;
+}
+
+.container-main .container-content .container-presentation button:hover .dash {
+  clip-path: circle(150% at top left);
+}
+
+.container-main .container-content .container-presentation .container-redes {
+  margin-top: 1rem;
+}
+
+.container-main
+  .container-content
+  .container-presentation
+  .container-redes
+  .red {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #fff;
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+.container-main
+  .container-content
+  .container-presentation
+  .container-redes
+  .red:hover {
+  background-color: var(--color-main);
+  transform: translateY(-3px);
+}
+
+.container-main
+  .container-content
+  .container-presentation
+  .container-redes
+  .red
+  i {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.container-main .container-content .container-img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  right: 0px;
+  transform: skew(-10deg);
+}
+
+.container-main .container-content .container-img:hover {
+  transform: skew(0deg);
+}
+
+.container-main .container-content .container-img img {
+  position: absolute;
+  top: 150px;
+  right: 80px;
+  width: 45%;
+  /*transform: skew(-20deg);*/
+}
+
+.container-main .container-content .container-img .card-react {
+  position: absolute;
+  top: 150px;
+  right: 425px;
+  width: 180px;
+  height: 120px;
+  border-radius: 15px;
+  background: #8e2de2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right bottom,
+    #4a00e0,
+    #8e2de2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right top,
+    #4a00e0,
+    #8e2de2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 1px solid #fff;
+}
+
+.container-main .container-content .container-img .card-react h2 {
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: var(--special-font);
+  margin: 8px 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.container-main .container-content .container-img .card-react .icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #000e37;
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-main .container-content .container-img .card-react .icon i {
+  color: #03c4dc;
+  font-size: 1.4rem;
+}
+
+.container-main .container-content .container-img .card-react .lines {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  width: 50%;
+  height: 66%;
+}
+
+.container-main .container-content .container-img .card-react .lines .line1 {
+  width: 70%;
+  height: 3.5px;
+  border-radius: 5rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.container-main .container-content .container-img .card-react .lines .line2 {
+  width: 50%;
+  height: 3px;
+  border-radius: 5rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.container-main .container-content .container-img .card-react .lines .line3 {
+  width: 60%;
+  height: 3px;
+  border-radius: 5rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.container-main .container-content .container-img .card-react .lines .line4 {
+  width: 80%;
+  height: 3px;
+  border-radius: 5rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.container-main .container-content .container-img .card-react .lines .line5 {
+  width: 50%;
+  height: 5px;
+  border-radius: 5rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.container-main .container-content .container-img .card-native {
+  position: absolute;
+  top: 400px;
+  right: 90px;
+  width: 180px;
+  height: 120px;
+  border-radius: 15px;
+  background: #2193b0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right bottom,
+    #6dd5ed,
+    #2193b0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right top,
+    #6dd5ed,
+    #2193b0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 1px solid #fff;
+}
+
+.container-main .container-content .container-img .card-native h2 {
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: var(--special-font);
+  margin: 4px 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.container-main .container-content .container-img .card-native .icon1 {
+  position: absolute;
+  top: 10px;
+  right: 58px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #001;
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-main .container-content .container-img .card-native .icon1 i {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.container-main .container-content .container-img .card-native .icon2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #001;
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-main .container-content .container-img .card-native .icon2 i {
+  color: #00be00;
+  font-size: 1.4rem;
+}
+
+.container-main .container-content .container-img .card-native .lines {
+  width: 100%;
+  height: 50px;
+}
+
+.container-main .container-content .container-img .card-native .lines .line1 {
+  width: 40%;
+  height: 3.5px;
+  border-radius: 5rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.container-main .container-content .container-img .card-native .lines .line2 {
+  width: 60%;
+  height: 3.5px;
+  border-radius: 5rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.container-main .container-content .container-img .card-native .lines .line3 {
+  width: 50%;
+  height: 3.5px;
+  border-radius: 5rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.container-main .container-content .container-img .card-native .lines .line4 {
+  width: 70%;
+  height: 3.5px;
+  border-radius: 5rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.container-main .container-content .container-img .card-native .lines .line5 {
+  width: 30%;
+  height: 5px;
+  border-radius: 5rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 1190px) {
+  .container-main .container-content .container-img img {
+    right: 40px;
+  }
+
+  .container-main .container-content .container-img .card-react {
+    top: 140px;
+    right: 370px;
+  }
+
+  .container-main .container-content .container-img .card-native {
+    right: 70px;
+  }
+}
+
+@media screen and (max-width: 1135px) {
+  .container-main .container-content .container-img img {
+    right: 0px;
+  }
+
+  .container-main .container-content .container-img .card-react {
+    top: 130px;
+    right: 310px;
+  }
+
+  .container-main .container-content .container-img .card-native {
+    top: 380px;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 1051px) {
+  .container-main .container-content .container-img img {
+    right: 0px;
+  }
+
+  .container-main .container-content .container-img .card-react {
+    top: 122px;
+    right: 290px;
+  }
+
+  .container-main .container-content .container-img .card-native {
+    top: 380px;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .container-main .container-content .container-img img {
+    right: 0px;
+  }
+
+  .container-main .container-content .container-img .card-react {
+    top: 122px;
+    right: 290px;
+  }
+
+  .container-main .container-content .container-img .card-native {
+    top: 360px;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 1031px) {
+  .container-main .container-content .container-img {
+    display: none;
+  }
+
+  .container-main .container-content .container-img img {
+    right: 0px;
+  }
+
+  .container-main .container-content .container-img .card-react {
+    top: 122px;
+    right: 290px;
+  }
+
+  .container-main .container-content .container-img .card-native {
+    top: 360px;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 1031px) {
+  .container-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-content .container-presentation .container-text {
+    position: relative;
+    left: 30%;
+  }
+
+  .container-content .container-presentation .container-text p {
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 40px;
+  }
+
+  .container-main .container-content .container-presentation h1 span {
+    color: #fff;
+  }
+
+  .container-main
+    .container-content
+    .container-presentation
+    .container-redes
+    .red
+    i {
+    left: 0;
+  }
+}
